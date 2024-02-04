@@ -22,12 +22,12 @@ public class Main {
     String newZ;
     // goes through the array and based of response of the user decrypt/ encrypts all the numbers and adds them to the file listed
     for(int i =0; i<= length-1; i++){
-      if((key.toLowerCase()).equals("encrypt")){
+      /*if((key.toLowerCase()).equals("encrypt")){
           newZ = messages.encrypt(text[i]);
           text[i] = newZ;
           list.addToText(EncodedFile,newZ);
         
-      }else if((key.toLowerCase()).equals("decrypt")){
+      }else*/ if((key.toLowerCase()).equals("decrypt")){
           newZ = messages.decrypt(text[i]);
           text[i] = newZ;
           list.addToText(EncodedFile,newZ);

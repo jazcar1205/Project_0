@@ -14,7 +14,7 @@ public class Change{
   }
   
   //method that takes the number and encrypts it
-  public String encrypt(String number){ 
+  /*public String encrypt(String number){ 
     // checks the length is 4
     if (number.length() == 4){
       // for loop that separates each digit, turns into a integer, and does the encryption. 
@@ -38,7 +38,8 @@ public class Change{
     }
     // returns the encrypted number
     return encNum ; 
-  }
+  }*/
+  
   //method that takes the number and decrypts it
   public String decrypt(String given){
     // checks the length is 4
